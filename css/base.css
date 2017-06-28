@@ -1,0 +1,233 @@
+
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+#all {
+    position: absolute;
+    top: 80px;
+}
+
+#content {
+    margin-left: 160px;
+    padding: 10px;
+}
+
+#message {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    background-color: #616D7E;
+    color: white;
+    font-weight: bold;
+    font-size: 28pt;
+}
+
+#header div.title {
+    left: 60px;
+    top: 15px;
+    position: absolute;
+}
+
+#header div.title a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 160px;
+    height: 100%;
+    background-color: #717D8E;
+    padding-top: 10px;
+}
+
+#menuback {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 160px;
+    background-color: #717D8E;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    background-color: #616D7E;
+    color: white;
+}
+
+#menu li a:hover {
+    background-color: #461B7E;
+}
+
+form label {
+    float: left;
+    width: 120px;
+    font-weight: bold;
+}
+
+form > input, form > textarea, form > select {
+    width: 180px;
+    margin-bottom: 5px;
+}
+
+form button {
+    margin-right: 5px;
+}
+
+form button.ui-button {
+    margin-right: 5px;
+}
+
+form .input {
+    margin-left: 120px;
+    margin-bottom: 5px;
+}
+
+input.right {
+    text-align: center;
+}
+
+table.listagem {
+    border: #717D8E 1px solid;
+}
+
+table.listagem th {
+    background-color: #99ccff;
+}
+
+table.listagem td {
+    padding-right: 5px;
+    padding-left: 5px;
+    border: #717D8E 1px solid;
+}
+
+td.right {
+    text-align: right;
+}
+
+td.total {
+    font-weight: bold;
+    text-align: right;
+}
+
+table.pointer {
+    cursor: pointer;
+    border-collapse: collapse;
+}
+
+table.pointer tr:hover {
+    background-color: #9999ff;
+}
+
+h1.titulo {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+a.produto {
+    color: black;
+    text-decoration: none;
+}
+
+div.produto {
+    float: left;
+    width: 240px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    margin: 1px;
+}
+
+div.produto:hover {
+    margin: 0px;
+    border: 1px solid #461B7E;
+}
+
+div.produto div.foto {
+    /*background-color: #b3bbc7;*/
+    height: 128px;
+    width: 128px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+div.produto div.foto img {
+    border: 0px;
+}
+
+h2.detalhes {
+    font-size: 100%;
+    background-color: #b3bbc7;
+    text-align: center;
+}
+
+.float-icon {
+    float: left;
+    margin-right: 0.3em;
+}
+
+.ui-state-default {
+    font-size: 9pt;
+}
+
+div.foto_dialog {
+    text-align: center;
+}
+
+img.foto:hover {
+    cursor: pointer;
+}
+
+#carrinho {
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    font-weight: bold;
+}
+
+#carrinho a {
+    color: white;
+}
+
+#busca {
+    color: white;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+#busca input {
+    border: none;
+}
